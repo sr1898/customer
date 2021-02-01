@@ -1,0 +1,3 @@
+service {
+	"CUSTOMERS"	as "customers";
+	}
