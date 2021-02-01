@@ -1,0 +1,14 @@
+_schema-version: "3.2"
+ID: customers
+version: 0.0.1
+modules:
+- name: cs-db
+  type: hdb
+  path: cs-db
+  requires:
+  - name: hdi_cs-db
+resources:
+- name: hdi_cs-db
+  type: com.sap.xs.hdi-container
+  properties:
+    hdi-container-name: ${service-name}
