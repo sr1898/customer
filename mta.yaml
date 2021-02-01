@@ -1,4 +1,4 @@
-_schema-version: "3.2"
+_schema-version: "2.1"
 ID: customers
 version: 0.0.1
 modules:
