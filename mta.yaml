@@ -8,11 +8,11 @@ modules:
   requires:
   - name: hdi_cs-db
 
-- name: srv
+- name: cs-srv
   type: nodejs
-  path: srv
+  path: cs-srv
   provides:
-   - name: srv_api
+   - name: cs_srv_api
      properties:
         url: ${default-url}
 

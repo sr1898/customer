@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@sap/xsenv": "^2",
-    "@sap/xsjs": "^6"
+    "@sap/xsjs": "^6",
+    "@sap/xsodata":"*"
   },
   "description": "my description",
   "devDependencies": {

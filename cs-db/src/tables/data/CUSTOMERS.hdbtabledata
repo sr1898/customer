@@ -1,0 +1,24 @@
+{
+	"format_version": 1,
+	"imports": [{
+        "target_table": "CUSTOMERS",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "CUSTOMERS.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		},
+		"import_settings": {
+			"include_filter": [],
+			"import_columns": ["CUSTOMERID","FULLNAME","COUNTRYCODE"]
+		},
+		"column_mappings": {
+			"CUSTOMERID": 1,
+			"FULLNAME": 2,
+			"COUNTRYCODE": 3
+		}
+	}]
+}
