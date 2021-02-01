@@ -1,3 +1,4 @@
 service {
 	"CUSTOMERS"	as "customers";
+	"COUNTRIES" as "countries";
 	}
